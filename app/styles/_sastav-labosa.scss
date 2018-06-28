@@ -1,0 +1,50 @@
+/* sastav labosa styles */
+
+.sastav-labosa{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 100%;
+	background-image:url(../images/grid.png);
+	background-size: cover;
+	@media screen and(max-width:991px){
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	@media screen and(max-width:767px){
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+.profesori-section{
+	margin-top: 50px;
+}
+.profesor-image{
+	position: absolute;
+	
+}
+.circle-holder{
+	position: relative;
+	width: 90%;
+	padding-bottom: 90%;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+	
+}
+.top-spacing{
+	margin-top: 30px;
+}
+.profesori-opis{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	@media screen and(max-width:991px){
+		font-size: 18px;	
+	}
+	@media screen and(max-width:767px){
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+}

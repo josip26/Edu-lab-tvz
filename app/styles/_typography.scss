@@ -1,0 +1,134 @@
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+h1{
+	font-weight: bold;
+	font-size: 60px;
+	@media screen and(max-width:991px){
+		font-size: 50px;	
+	}
+	@media screen and(max-width:767px){
+		font-size: 40px;	
+	}
+}
+h2{
+	font-size: 42px;
+	@media screen and(max-width:991px){
+		font-size: 35px;	
+	}
+	@media screen and(max-width:767px){
+		font-size: 30px;	
+	}
+}
+h3{
+	font-size: 35px;
+	font-weight: bold;
+	@media screen and(max-width:767px){
+		font-size: 20px;	
+	}
+}
+h4{
+	font-size: 30px;
+}
+h6{
+	font-size: 20px;
+	@media screen and(max-width:991px){
+		font-size: 18px;	
+	}
+	@media screen and(max-width:767px){
+		font-size: 15px;	
+	}
+}
+.h2--news-box{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.text--center{
+	text-align: center;
+}	
+.text--center-mobile{
+	@media screen and(max-width:767px){
+		text-align: center;	
+	}
+}
+.text--black{
+	color: black;
+}
+.text--white{
+	color: white;
+}
+.text--bottom-xsmall{
+	margin-bottom: 10px;
+}
+.text--bottom-small{
+	margin-bottom: 30px;
+}
+.text--bottom-medium{
+	margin-bottom: 50px;
+}
+.text--bottom-heigh{
+	margin-bottom: 70px;
+	@media screen and(max-width:991px){
+		margin-bottom: 50px;	
+	}
+	@media screen and(max-width:767px){
+		margin-bottom: 30px;	
+	}
+}
+.text--top-xsmall{
+	margin-top: 15px;
+}
+.text--top-small{
+	margin-top: 30px;
+}
+.text--top-big{
+	margin-top: 70px;
+}	
+.text--center{
+	text-align: center;
+}
+/* buttons */
+
+.button{
+	padding: 8px 35px 8px 35px;
+	border: 1px solid black;
+	color: black;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: all .7s;
+	font-weight: bold;
+	float: right;
+	@media screen and(max-width:767px){
+		float: none;
+		
+	}
+}
+.button--wrapper-center{
+	@media screen and(max-width:767px){
+		display: flex;
+		width: 100%;	
+		justify-content: center;
+	}
+}
+.button--white{
+	border: 1px solid white;
+	color: white;
+}
+.button--white:hover{
+	color: black;
+	background-color: white;
+	border:1px solid white;
+}
+.button--black:hover{
+	color: white;
+	background-color: $yellow;
+	border: 1px solid $yellow;
+	
+	@media screen and(max-width:767px){
+		font-size: 18px;	
+	}
+}

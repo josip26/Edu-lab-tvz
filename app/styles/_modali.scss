@@ -1,0 +1,152 @@
+
+/*****drustva pozadinske slike*****/
+
+.project1{
+	background-image: url(../images/Mask%20Group%2045.png);
+}
+
+
+/***modali****/
+.drustvo--modal_header{
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	@media screen and(max-width:991px){
+		height: 300px;	
+	}
+	@media screen and (max-width:767px){
+		height: 200px;	
+	}
+		
+}
+
+.drustvo--modal_body{
+	background-color: black;
+	padding: 0px 100px 50px 100px;
+	@media screen and(max-width:991px){
+		padding: 0px 10px 30px 10px;	
+	}
+	@media screen and (max-width:767px){
+		padding: 0px;	
+	}
+}
+.drustvo--modal_body h3{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 40px;
+	margin-bottom: 40px;
+	@media screen and (max-width:991px){
+		font-size: 35px;
+		padding-top: 40px;
+		margin-bottom: 35px;
+	}
+	@media screen and (max-width:767px){
+		font-size: 25px;	
+	}
+}
+.drustvo--modal_body h4{
+	font-weight: bold;
+	padding-top: 40px;
+}
+.drustvo--modal_body h6{
+	font-weight: bold;
+	margin-bottom: 8px;
+}	
+.drustvo--modal_body p{
+	font-size: 22px;
+	@media screen and (max-width:767px){
+		font-size: 15px;	
+	}
+}
+.modal--close-button--drustva{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+/***MODAL FIX***/
+.fade{
+	 -webkit-transition: opacity 0.1s linear;
+}
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  @media(max-width: 768px) {
+    min-height: calc(100vh - 20px);
+  }
+}
+.modal{
+	background-color: rgba(0,0,0,0.8);
+}
+.modal-dialog{
+	min-width: 60%;
+	@media screen and(max-width:967px){
+		min-width: 80%;	
+	}
+}
+.modal-content{
+	background-color:rgba(0,0,0,0);
+	color: white;
+	font-family: raleway;
+	border: none;
+	
+	
+}
+.modal-header{
+	border: none;
+	text-align: center;
+}
+.modal-title{
+	width: 100%;
+	font-size: 80px;
+	text-align: center;
+	@media screen and (max-width:967px){
+		font-size: 60px;	
+	}
+	@media screen and (max-width:767px){
+		font-size: 45px;	
+	}
+	
+}
+.modal-body{
+	font-size: 30px;
+	@media screen and (max-width:967px){
+		font-size: 20px;	
+	}
+	@media screen and (max-width:767px){
+		font-size: 15px;	
+	}
+}
+.modal--close-button{
+	width: 40px;
+	@media screen and(max-width:991px){
+		width: 30px;	
+	}
+}
+.modal--close{
+	width: 40px;
+	float: right;
+}
+.modal__close--holder{
+	
+}
+.close:active{
+	outline: none;
+}
+
+/* store ikone */
+.store{
+	height: 80px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	@media screen and(max-width:1200px){
+		height: 60px;	
+	}
+	@media screen and(max-width:767px){
+		height: 45px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}

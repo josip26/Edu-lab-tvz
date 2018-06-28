@@ -1,0 +1,27 @@
+/** footer styles **/
+footer{
+	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	background-color: black;
+}
+.footer-logo{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}
+.footer-link{
+	width: 90px;
+	margin-right: 0px;
+	@media screen and(max-width:991px){
+		width: 80px;	
+	}
+}
+.footer-logo-section{
+	bottom: 0;
+	@media screen and(max-width:767px){
+		display: none;
+	}
+}

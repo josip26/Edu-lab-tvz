@@ -1,0 +1,54 @@
+/* stilovi - stranica s novostima */
+
+/* top section - vrijedi i za ostale stranice */
+.top-section-partneri{
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../images/partners.jpg);
+}
+.top-sectin-h1{
+	font-size: 80px;
+	@media screen and(max-width:991px){
+		font-size: 60px;	
+	}
+	@media screen and(max-width:767px){
+		font-size: 45px;	
+	}
+}
+.overlay--partneri-cover{
+	display: flex;
+	height: 40vh;
+	background-color: rgba(56,0,0,0.4);
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	z-index: 1000;
+	
+}
+
+.partneri-section--white{
+	background-color: white;
+	padding-top: 0px;
+	padding-top: 50px;
+}
+
+.partneri-holder{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.partneri-images{
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	transition: all .4s;
+	cursor: pointer;
+	@media screen and(max-width:767px){
+		height: 150px;	
+	}
+}	
+.partneri-images:hover{
+	padding: 0px;
+}

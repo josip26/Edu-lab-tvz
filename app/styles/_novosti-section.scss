@@ -1,0 +1,57 @@
+.novosti-section{
+	width: 100%;
+	min-height: 600px;
+	background-image: url(../images/grid.png);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	@media screen and(max-width:991px){
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
+	@media screen and(max-width:767px){
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+}
+.news-box{
+	height: 450px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 30px;
+	@media screen and(max-width:767px){
+	margin-bottom: 1px;	
+		height: 300px;
+	}
+}
+.news-box-margin-last{
+	margin-bottom: 30px;
+}
+.news-overlay{
+	padding: 10px 15px 15px 15px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	bottom: 0;
+	transition: all .3s;
+	@media screen and(max-width:767px){
+		padding: 5px;	
+	}
+}
+.news-overlay:hover{
+	padding-bottom: 25px;
+	@media screen and(max-width:767px){
+		padding-bottom: 5px;		
+	}
+}
+.zero-padding--mobile{
+	@media screen and(max-width:767px){
+		padding: 0;
+		
+	}
+}
+.relative-holder{
+	position: relative;
+}

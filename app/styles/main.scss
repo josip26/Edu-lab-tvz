@@ -1,0 +1,29 @@
+
+/* imports */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,700');
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "colors";
+@import "typography";
+@import "header";
+@import "main-section";
+@import "novosti-section";
+@import "projekti-index";
+@import "sastav-labosa";
+@import "footer";
+@import "novosti";
+@import "modali";
+@import "projekti";
+@import "partneri";
+@import "hamburgers";
+
+/* resets */
+body{ 
+	padding: 0;
+	margin: 0;
+	font-family: raleway;
+	font-weight: 400;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+		color: white;
+}
